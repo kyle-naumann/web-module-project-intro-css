@@ -1,10 +1,14 @@
 nav {
-background:;
+
 padding: 20px;
 display: flex;
 flex-direction: row;   
 }
-
+.top{
+    padding:20px;
+    display:flex;
+    flex-direction:row
+}
 
 
 h1{
@@ -12,7 +16,11 @@ h1{
     text-align:center;
     font-size:50px;
   }
-  
+  .title{
+    font-family: 'Chelsea Market', cursive;
+    text-align:center;
+    margin:auto
+  }
   * {
     font-family: 'Roboto Mono', monospace;  
   }
@@ -48,7 +56,7 @@ h1{
   }
   
   .circular--landscape {
-    display: inline-block;
+    display: flex;
     position: relative;
     width: 200px;
     height: 200px;
