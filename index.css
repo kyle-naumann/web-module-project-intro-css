@@ -1,3 +1,12 @@
+nav {
+background:;
+padding: 20px;
+display: flex;
+flex-direction: row;   
+}
+
+
+
 h1{
     font-family: 'Chelsea Market', cursive;
     text-align:center;
@@ -11,34 +20,30 @@ h1{
   
   /* Buttons */
   .btn-1{
-    margin: 0 10px;
+    margin: auto;
     padding: 20px;
+    text-decoration: none;
     border-radius: 20px;
     color: white;
-    margin-bottom: 20px;
+    
+    
     background: #FF764E
   }
   .btn-2{
-  margin: 1em;
-    
+  margin: auto;
     padding: 20px;
-    display: inline-block;
     border-radius: 20px;
     color: white;
     text-decoration: none;
-    margin-bottom: 20px;
     background: #5ED3EB  
   }
   
   .btn-3{
-   margin: 1em;
-    
+   margin: auto;
     padding: 20px;
-    display: inline-block;
     border-radius: 20px;
     color: white;
     text-decoration: none;
-    margin-bottom: 20px;
     background: #FFCD69
   }
   
@@ -68,9 +73,10 @@ h1{
   footer{
      
     width: 100%;
-      margin:0 auto;
+      margin:auto;
     background-color: #F9E7DC;
-    
+   padding: 40px; 
   }
+  
   
   
